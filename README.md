@@ -1,35 +1,45 @@
 # Redditech
 
+## About The Project
+
 A simple native application in React Native with Expo, handling the Reddit api.
 
-# Build
+![](redditech_video.gif)
 
-after cloning this repo
+### Built With
 
-``npm install``
+* [ReactNative](https://reactnative.dev/)
 
-this will install the project's dependencies and libraries
+## Getting Started
 
-``npm start`` or ``expo start``
+### Installation
 
-this will start the project
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the project on `http://localhost:3000/`
+   ```sh
+   npm start
+   ```
 
 # Features
 
 | Description            | Done        |
 | ---------------------- | ----------- |
-| Authenticate to the Reddit API with the OAuth2 protocol   | :heavy_check_mark: |
-| Display the user’s profile           |  :heavy_check_mark: |
-| Display posts        |  :heavy_check_mark: |
-| Filter the posts              |  :heavy_check_mark: |
-| Search for subreddits            |  :heavy_check_mark: |
-| Display a subreddit basic information            |  :heavy_check_mark: |
-| Display posts from a subreddit         |  :heavy_check_mark: |
-| Display posts from a subreddit         |  :heavy_check_mark: |
+| Authenticate to the Reddit API with the OAuth2 protocol   | ✅ |
+| Display the user’s profile           |  ✅ |
+| Display posts        |  ✅ |
+| Filter the posts              |  ✅ |
+| Search for subreddits            |  ✅ |
+| Display a subreddit basic information            |  ✅ |
+| Display posts from a subreddit         |  ✅ |
+| Display posts from a subreddit         |  ✅ |
 |Subscribe/Unsubscribe to a subreddit    | ❌ |
-|Display at least 6 of the user’s settings | :heavy_check_mark:|
+|Display at least 6 of the user’s settings | ✅ |
 |Be able to update at least 6 of the user’s settings | ❌ |
 
-# Preview
-
-![Output sample](https://github.com/EpitechPromo2024/B-DEV-501-BDX-5-1-redditech-antoine.deligny/blob/master/redditech_video.gif)
